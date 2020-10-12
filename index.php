@@ -19,7 +19,7 @@ try{
                 echo "vous etes sur le dashboard";
                 break;
             case 'user':
-                echo "vous etes sur le user";
+                require_once ('./app/views/user.php');
                 break;
             case 'login':
                 echo "vous etes sur le login";

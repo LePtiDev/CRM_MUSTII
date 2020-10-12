@@ -3,10 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.error {
-  color: red;
+  font-family: Montserrat, sans-serif;
 }
 
 /*
@@ -18,5 +15,23 @@
 /*
    Other
  */
+/* Page */
+.container-error {
+  height: 100vh;
+  width: 100vw;
+  background-color: #232246;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-error h2 {
+  color: #00AD44;
+  font-size: 60px;
+}
+.container-error p {
+  color: white;
+  margin-top: 10px;
+}
 
 /*# sourceMappingURL=app.css.map */
