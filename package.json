@@ -1,0 +1,23 @@
+{
+  "name": "crm_mustii",
+  "version": "0.0.1",
+  "description": "crm of the socity mustii",
+  "main": "index.php",
+  "scripts": {
+    "sass": "sass --watch public/scss/init.scss:public/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LePtiDev/CRM_MUSTII.git"
+  },
+  "author": "quentin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LePtiDev/CRM_MUSTII/issues"
+  },
+  "homepage": "https://github.com/LePtiDev/CRM_MUSTII#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "sass": "^1.27.0"
+  }
+}
