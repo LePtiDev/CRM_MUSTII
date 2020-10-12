@@ -14,13 +14,14 @@ class database {
         $this->dbname = "admin-mustii";
         $this->user = "root";
         $this->password = "root";
+        $this->bdd = $this->connect();
     }
 
     public function connect()
     {
         try
         {
-            $this->bdd = new PDO('mysql:host='. $this->host .';dbname='. $this->dbname .';charset=utf8', $this->user, $this->password);
+           return new PDO('mysql:host='. $this->host .';dbname='. $this->dbname .';charset=utf8', $this->user, $this->password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
         catch (Exception $e)
         {
