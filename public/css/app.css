@@ -1,11 +1,4 @@
 /* global of the app */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Montserrat, sans-serif;
-}
-
 /*
    Colors
  */
@@ -15,6 +8,23 @@
 /*
    Other
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+.container-fluid {
+  background-color: #232246;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+h2 {
+  color: white;
+}
+
 /* Page */
 .container-error {
   height: 100vh;
